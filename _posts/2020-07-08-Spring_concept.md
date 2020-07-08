@@ -1,14 +1,12 @@
 ---
 layout: post
 title: "Spring에 대하여"
-date : 2020-07-08 20:00:00 +0700
+date: 2020-07-08 20:00:00 +0700
 categories: [Spring]
 tags: [Spring, 스프링]
 toc: true
 toc_sticky: true
 ---
-
-
 
 
 
