@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Filter, Interceptor"
+title: "Filter와 Interceptor"
 date: 2020-07-09 21:00:00 +0700
 categories: [Spring]
 tags: [Spring, 스프링, Filter, Interceptor, AOP]
