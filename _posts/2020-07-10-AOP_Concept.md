@@ -91,24 +91,26 @@ AOP는 OOP가 가지는 문제점을 보완하기위해 나온 개념이라고 �
 
 ## Spring AOP 특징
 
-1. Spring은 proxy 기반 AOP를 지원한다.
+- Spring은 proxy 기반 AOP를 지원한다.
 
-   - Spring은 target객체에 대한 proxy를 만들어 제공한다.
+  - Spring은 target객체에 대한 proxy를 만들어 제공한다.
 
-   - target을 감싸는 proxy는 런타임에 생성된다.
+  - target을 감싸는 proxy는 런타임에 생성된다.
 
-   - proxy는 advice를 target객체에 적용하면서 생성되는 객체이다.
+  - proxy는 advice를 target객체에 적용하면서 생성되는 객체이다.
 
-     
+  
 
-2.  proxy가 호출을 가로챈다.
+- proxy가 호출을 가로챈다.
 
-   - proxy는 target객체에 대한 호출을 가로챈 다음 advice의 부가기능 로직을 수행하고 난 후에 target의 핵심기능 로직을 호출한다.(전처리 Advice)
-   - target의 핵심기능 로직 메서드를 호출한 후에 부가기능을 수행하는 경우도 있다.
+  - proxy는 target객체에 대한 호출을 가로챈 다음 advice의 부가기능 로직을 수행하고 난 후에 target의 핵심기능 로직을 호출한다.(전처리 Advice)
 
-   
+  - target의 핵심기능 로직 메서드를 호출한 후에 부가기능을 수행하는 경우도 있다.
 
-3. Spring AOP는 메서드 조인 포인트만 지원한다.
 
-   - Spring은 동적 proxy를 기반으로 AOP를 구현하므로 메서드 Join Point만 지원한다.
-   - target의 메서드가 호출되는 런타임 시점에만 advice를 적용할 수 있다.
+
+- Spring AOP는 메서드 조인 포인트만 지원한다.
+
+  - Spring은 동적 proxy를 기반으로 AOP를 구현하므로 메서드 Join Point만 지원한다.
+
+  - target의 메서드가 호출되는 런타임 시점에만 advice를 적용할 수 있다.
